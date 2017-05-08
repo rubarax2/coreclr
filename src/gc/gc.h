@@ -56,6 +56,7 @@ struct fgm_history
 
     void set_fgm (failure_get_memory f, size_t s, BOOL l)
     {
+	// conflict in master	
         fgm = f;
         size = s;
         loh_p = l;

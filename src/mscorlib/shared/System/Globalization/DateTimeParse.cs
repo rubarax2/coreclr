@@ -12,7 +12,7 @@ namespace System
 {
     internal static class DateTimeParse
     {
-        internal const Int32 MaxDateTimeNumberDigits = 8;
+        internal const Int32 MaxDateTimeNumberDigits = 8; // change in master
 
         internal delegate bool MatchNumberDelegate(ref __DTString str, int digitLen, out int result);
 
