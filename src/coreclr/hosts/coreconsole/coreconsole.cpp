@@ -57,6 +57,8 @@ public:
     }
 };
 
+// comment
+
 // Encapsulates the environment that CoreCLR will run in, including the TPALIST
 class HostEnvironment
 {
