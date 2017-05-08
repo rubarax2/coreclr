@@ -1,6 +1,7 @@
 // Licensed to the .NET Foundation under one or more agreements.
 // The .NET Foundation licenses this file to you under the MIT license.
 // See the LICENSE file in the project root for more information.
+// Change EOLS
 
 
 /*++
@@ -21,7 +22,7 @@ Module Name:
 // However, GCToOSInterface defines a function called Sleep, which (due to this define) becomes
 // "Dont_Use_Sleep", which the GC in turn happily uses. The symbol that GCToOSInterface actually
 // exported was called "GCToOSInterface::Dont_Use_Sleep". While we progress in making the GC standalone,
-// we'll need to break the dependency on common.h (the VM header) and this problem will become moot.
+// we'll need to break all dependency on common.h (the VM header) and this problem will become moot.
 #undef Sleep
 #endif // Sleep
 
